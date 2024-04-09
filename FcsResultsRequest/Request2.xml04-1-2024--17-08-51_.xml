@@ -1,0 +1,48 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fcs="http://www.moh.gov.co.il/FoodApp/FCS_Labs" xmlns:fcs1="http://schemas.datacontract.org/2004/07/FCS_LabsLib">
+  <soapenv:Header />
+  <soapenv:Body>
+    <fcs:Lab_Results_Form>
+      <fcs:Request>
+        <fcs1:Arrival_Temp>
+        </fcs1:Arrival_Temp>
+        <fcs1:Attached_Document>
+          <fcs1:ATTACHED_DOCUMENT>
+            <fcs1:Document_Name>2312-260112,11,2023,15,41,24.pdf</fcs1:Document_Name>
+            <fcs1:Document_Type_Code>1</fcs1:Document_Type_Code>
+            <fcs1:FileExt>.pdf</fcs1:FileExt>
+            <fcs1:FileName>?</fcs1:FileName>
+            <fcs1:GUID>"9024a914-cd33-40c8-8bcb-202fb26b1795.pdf"</fcs1:GUID>
+            <fcs1:Link_To_Document>C:\Work\NesherProj\COA-Templates\FOOD\2312-260112,11,2023,15,41,24.pdf</fcs1:Link_To_Document>
+          </fcs1:ATTACHED_DOCUMENT>
+        </fcs1:Attached_Document>
+        <fcs1:Barcode>
+        </fcs1:Barcode>
+        <fcs1:Is_Complete>false</fcs1:Is_Complete>
+        <fcs1:Lab_Code>13</fcs1:Lab_Code>
+        <fcs1:Lab_Report_ID>2312-2601 (1)F</fcs1:Lab_Report_ID>
+        <fcs1:Lab_Report_Ver>1</fcs1:Lab_Report_Ver>
+        <fcs1:Matching>false</fcs1:Matching>
+        <fcs1:Organization>
+        </fcs1:Organization>
+        <fcs1:Package_Condition>?</fcs1:Package_Condition>
+        <fcs1:Report_Date />
+        <fcs1:Report_Notes>
+          <fcs1:LabNotes>
+            <fcs1:Note>
+            </fcs1:Note>
+            <fcs1:Note_Type>C</fcs1:Note_Type>
+          </fcs1:LabNotes>
+          <fcs1:LabNotes>
+            <fcs1:Note>
+            </fcs1:Note>
+            <fcs1:Note_Type>A</fcs1:Note_Type>
+          </fcs1:LabNotes>
+        </fcs1:Report_Notes>
+        <fcs1:Sample_Form_Num>0</fcs1:Sample_Form_Num>
+        <fcs1:Test_Results />
+        <fcs1:Tester_Name>
+        </fcs1:Tester_Name>
+      </fcs:Request>
+    </fcs:Lab_Results_Form>
+  </soapenv:Body>
+</soapenv:Envelope>

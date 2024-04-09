@@ -1,0 +1,76 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fcs="http://www.moh.gov.co.il/FoodApp/FCS_Labs" xmlns:fcs1="http://schemas.datacontract.org/2004/07/FCS_LabsLib">
+  <soapenv:Header />
+  <soapenv:Body>
+    <fcs:Lab_Results_Form>
+      <fcs:Request>
+        <fcs1:Arrival_Temp>sd</fcs1:Arrival_Temp>
+        <fcs1:Attached_Document>
+          <fcs1:ATTACHED_DOCUMENT>
+            <fcs1:Document_Name>1</fcs1:Document_Name>
+            <fcs1:Document_Type_Code>2</fcs1:Document_Type_Code>
+            <fcs1:File_Ext>3</fcs1:File_Ext>
+            <fcs1:File_Name>4</fcs1:File_Name>
+            <fcs1:GUID>"134642d7-7eb7-49fa-9db5-050899db4b09.pdf"</fcs1:GUID>
+            <fcs1:Link_To_Document>6</fcs1:Link_To_Document>
+          </fcs1:ATTACHED_DOCUMENT>
+        </fcs1:Attached_Document>
+        <fcs1:Barcode>404560</fcs1:Barcode>
+        <fcs1:Is_Complete>False</fcs1:Is_Complete>
+        <fcs1:Lab_Code>13</fcs1:Lab_Code>
+        <fcs1:Lab_Report_ID>22-000087 (1)F</fcs1:Lab_Report_ID>
+        <fcs1:Lab_Report_Ver>60</fcs1:Lab_Report_Ver>
+        <fcs1:Matching>False</fcs1:Matching>
+        <fcs1:Organization>TH06</fcs1:Organization>
+        <fcs1:Package_Condition>
+        </fcs1:Package_Condition>
+        <fcs1:Report_Date>9/8/2022 2:27:19 PM</fcs1:Report_Date>
+        <fcs1:Report_Notes>
+          <fcs1:Lab_Notes>
+            <fcs1:Note>הערה1</fcs1:Note>
+            <fcs1:Note_Type>יגחיהKDVB</fcs1:Note_Type>
+          </fcs1:Lab_Notes>
+        </fcs1:Report_Notes>
+        <fcs1:Sample_Form_Num>2</fcs1:Sample_Form_Num>
+        <fcs1:Test_Results>
+          <fcs1:Test_Result>
+            <fcs1:Analyte_Name>22-000087/001-AirM-1</fcs1:Analyte_Name>
+            <fcs1:LIMS_Samp_ID>22-000087/001</fcs1:LIMS_Samp_ID>
+            <fcs1:LOD>
+            </fcs1:LOD>
+            <fcs1:LOQ>
+            </fcs1:LOQ>
+            <fcs1:Lims_Test_Code>0</fcs1:Lims_Test_Code>
+            <fcs1:Manuf_Result>
+            </fcs1:Manuf_Result>
+            <fcs1:Marking>
+            </fcs1:Marking>
+            <fcs1:Measurement_Unit>222</fcs1:Measurement_Unit>
+            <fcs1:Measurement_Unit_Code>0</fcs1:Measurement_Unit_Code>
+            <fcs1:Method>USP &lt;1116&gt;</fcs1:Method>
+                              <fcs1:Notes>
+                     <!--0 to 100 repetitions:-->
+                     <fcs1:LabNotes>
+                        <!--Optional:-->
+                        <fcs1:Note></fcs1:Note>
+                        <!--Optional:-->
+                        <fcs1:Note_Type></fcs1:Note_Type>
+                     </fcs1:LabNotes>
+                  </fcs1:Notes>
+            <fcs1:Result>
+            </fcs1:Result>
+            <fcs1:Result_Num>0</fcs1:Result_Num>
+            <fcs1:Sample_Description>New sample</fcs1:Sample_Description>
+            <fcs1:Temprature>
+            </fcs1:Temprature>
+            <fcs1:Test_Name>Air Sampling-Total Count</fcs1:Test_Name>
+            <fcs1:Test_Sub_Code>13</fcs1:Test_Sub_Code>
+            <fcs1:Uncertainty>
+            </fcs1:Uncertainty>
+          </fcs1:Test_Result>
+        </fcs1:Test_Results>
+        <fcs1:Tester_Name>
+        </fcs1:Tester_Name>
+      </fcs:Request>
+    </fcs:Lab_Results_Form>
+  </soapenv:Body>
+</soapenv:Envelope>
